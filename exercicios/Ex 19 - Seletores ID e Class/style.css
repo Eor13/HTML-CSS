@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/*
+    tudo que em HTML é 'id' = em CSS é #
+    tudo que em HTML é 'class' = em CSS é .
+*/
+
+body{
+    background-color:#82F4BB;
+}
+h1{
+    color: #1A7347
+}
+h1#principal{
+    text-align: center;
+    background-color:#38F295;
+    color: #65736C;
+}
+/* os seletores deve ser igual as no HTML e no CSS.*/
+
+h2{
+    color: #1A7347;
+}
+h2.básico{
+    color: green;
+}
+
+/* Hierarquia dos seletores:
+    1º Id =Identificador de um unico elemento
+    2º Class = Grupo de elementos
+    3º Genericos = configurções das tags em CSS
+*/
+h2.intermediario{
+    color:yellow;
+}
+
+.avançado{
+    color:red;
+}
+
+.destaque{
+    background-color: rgba(178, 178, 72, 0.746);
+}

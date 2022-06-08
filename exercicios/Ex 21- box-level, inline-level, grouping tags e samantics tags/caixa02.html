@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            width: auto;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            /*Border-Radius*/
+            border-radius: 20px 0px;
+        }
+        header > h1{
+            box-shadow: 2px 2px 4px 1px black;
+        }
+        section#assunto{
+            background-color: lightgray;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        #assunto > h1{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        nav{
+            background-color: rgb(73, 73, 73);
+            color: white;
+            padding: 3px;
+            /*Box-shadow*/
+            box-shadow: 1px 1px 4px 3px rgba(0, 0, 0, 0.503);
+        }
+        nav > a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-right: 3px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(167, 167, 167);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            border-radius: 20px 20px 0px 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: auto;
+            margin-top: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <h1>Grouping tags no HTML5 são semânticas</h1>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus assumenda similique nam quidem dicta eum hic earum, recusandae itaque delectus sit impedit at tempore error quibusdam eligendi libero magni amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta atque voluptates, consequatur natus amet velit temporibus sint aliquid quo minima eaque quibusdam aliquam fuga, cumque eum illum, quis harum corporis!</P>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem illo quod aliquid numquam expedita asperiores corrupti assumenda voluptas nulla saepe, laborum sit ea cupiditate odio ipsam quos obcaecati ex harum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime sit, doloremque omnis commodi eaque soluta consequuntur exercitationem consequatur? Rem omnis libero quidem dolorem voluptatibus! Consectetur rem hic ratione dolores vitae!
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex eius, corrupti alias quas odio asperiores dolor repudiandae magni debitis praesentium neque odit id quia ratione. Iusto voluptates maiores blanditiis optio.</p>
+                <aside>
+                   <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
