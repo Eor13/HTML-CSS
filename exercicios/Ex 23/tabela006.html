@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela em telas Pequena</title>
+    <style>
+         body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        table{
+            border-collapse: collapse;
+            text-transform: capitalize;
+            margin: auto;
+        }
+        caption{
+            font-size: 2em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        /* TH - já deixa a palavra em negrito*/
+        th, td{
+            border: 1px solid gray;
+            padding: 20px;
+        }
+        tr:nth-child(even){
+            background-color: lightgray;
+        }
+        #conteiner{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ea neque alias. Earum natus, alias dolor exercitationem dolores voluptates excepturi obcaecati. Consequatur, fugit. Fuga ea dolorem obcaecati. Repudiandae, beatae facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis impedit repudiandae nulla dolorum quia, quam neque deserunt necessitatibus, harum blanditiis amet eum expedita ea maiores nihil. Hic quaerat laudantium nesciunt.</p>
+    <div id="conteiner">
+        <table>
+            <caption>tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>produto</th>
+                    <th>jan</th>
+                    <th>fev</th>
+                    <th>mar</th>
+                    <th>abr</th>
+                    <th>mai</th>
+                    <th>jun</th>
+                    <th>jul</th>
+                    <th>ago</th>
+                    <th>set</th>
+                    <th>out</th>
+                    <th>nov</th>
+                    <th>dez</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Caçarola</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>05</td>
+                    <td>20</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>Pipoqueira</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>05</td>
+                    <td>20</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Fervedor</td>
+                    <td>15</td>
+                    <td>05</td>
+                    <td>20</td>
+                    <td>40</td>
+                    <td>25</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>10</td>
+                    <td>50</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Assadeira Redonda</td>
+                    <td>40</td>
+                    <td>25</td>
+                    <td>20</td>
+                    <td>35</td>
+                    <td>40</td>
+                    <td>50</td>
+                    <td>35</td>
+                    <td>15</td>
+                    <td>05</td>
+                    <td>50</td>
+                    <td>60</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Jarra Cafeteira</td>
+                    <td>60</td>
+                    <td>40</td>
+                    <td>15</td>
+                    <td>30</td>
+                    <td>40</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>60</td>
+                    <td>80</td>
+                    <td>10</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
