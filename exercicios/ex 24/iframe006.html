@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionando conteúdo</title>
+    <style>
+        body{
+            margin: auto;
+            text-align: justify;
+            font: normal 20pt 'Arial';
+            padding: 10px;
+        }
+        /* Responsividade*/
+        .caixa{
+            position: relative;
+            padding: 55% 0 0 0;
+        }
+        iframe.respon{
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+        }
+        .direita{
+            position:absolute;
+            top:0;
+            left:50%;
+            width:50%;
+            height:100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Contéudos dentro dos iframes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni voluptas autem commodi quibusdam fuga exercitationem doloribus quidem voluptatibus similique quos quod impedit nulla recusandae repellendus natus ipsum, molestiae atque quo Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos aut eius quas rerum aperiam saepe, repudiandae iste aliquid dolores consequuntur ex dolore quam ea esse nostrum, in expedita impedit.</p>
+
+    <h2>Vídeo</h2>
+    <div class="caixa" >
+        <iframe class="respon" src="https://player.vimeo.com/video/720637718?h=e56941d019"  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js">
+    </script>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero sed, quae quia ipsam numquam molestiae aliquid. Cumque ab quisquam excepturi placeat, facilis odio, nobis sequi, hic laudantium fugit pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt sed molestiae? Vero sit corrupti, vitae maxime fugiat sed quas eum, molestias voluptatibus impedit quo fuga consectetur iure, temporibus ratione!</p>
+
+    <h2>Mapas do Google</h2>
+    <div class="caixa">
+        <iframe class="direita" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6186316926205!2d-46.432952782556136!3d-23.546215299999986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce642fcb0994b9%3A0x6cb028a9dc0e75a5!2sAlum%C3%ADnio%20Guima%20Ind%20Com!5e0!3m2!1spt-BR!2sbr!4v1655747251634!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero sed, quae quia ipsam numquam molestiae aliquid. Cumque ab quisquam excepturi placeat, facilis odio, nobis sequi, hic laudantium fugit pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt sed molestiae? Vero sit corrupti, vitae maxime fugiat sed quas eum, molestias voluptatibus impedit quo fuga consectetur iure, temporibus ratione!</p>
+    <h2>Mapas do Waze</h2>
+    <div class="caixa">
+        <iframe class="direita" src="https://embed.waze.com/iframe?zoom=16&lat=-23.546215&lon=-46.430764&ct=livemap" allowfullscreen></iframe>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero sed, quae quia ipsam numquam molestiae aliquid. Cumque ab quisquam excepturi placeat, facilis odio, nobis sequi, hic laudantium fugit pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt sed molestiae? Vero sit corrupti, vitae maxime fugiat sed quas eum, molestias voluptatibus impedit quo fuga consectetur iure, temporibus ratione!</p>
+    <h2>Google Docs</h2>
+    <div class="caixa">
+        <iframe class="respon" src="https://docs.google.com/presentation/d/e/2PACX-1vQMcPBpJWmioNr_fmEahDSwd6EZPPr54oHkrYKdWfhoBXHPQ00yirmueCDIeaPW1g/embed?start=false&loop=false&delayms=3000"frameborder="0"  allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum libero sed, quae quia ipsam numquam molestiae aliquid. Cumque ab quisquam excepturi placeat, facilis odio, nobis sequi, hic laudantium fugit pariatur. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt sed molestiae? Vero sit corrupti, vitae maxime fugiat sed quas eum, molestias voluptatibus impedit quo fuga consectetur iure, temporibus ratione!</p>
+</body>
+</html>
