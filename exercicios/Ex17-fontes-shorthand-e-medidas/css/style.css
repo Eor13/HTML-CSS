@@ -1,0 +1,43 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, (pt, pc)-medidas de material impresso
+
+    Medidas Relativas
+    ( em ) relativo ao tamanho atual da fonte usando o M maiusculo como base;
+    ( ex ) relativo a altura x da fonte usando o x minusculo como base;
+    ( rem ) relativo a altura x da fonte usando o x minusculo como base que está configurada no RUTY, fonte configurada no body;
+    ( vm ) configurado porcentagem do tamanho da Viw port - tamanho da tela do dispositivo;
+    ( % ) porcentagem da fonte
+    */
+    font-size: 16px;
+    /* 
+    - 16px geralmente =1em
+    - use px e em - recomendado pela W3C
+    - Mas é melhor usar em pois as telas variam de tamanho.
+    */
+    font-weight: bold;
+    /* niveis de Negrito:
+        lighter normal bold bolder
+        ou
+        100 a 900
+    */
+    font-style: italic;
+    /* italic normal */
+}
+
+h1{ font:italic bolder 3em 'Work Sans'
+    
+}
+    /* ShortHand font
+        font-style -> font-weight -> font-size ->font-family;
+
+        *font-style: italic;
+        *font-weight: bold;
+        *font-size: 3em;
+        *font-family:'Work Sans', sans-serif;
+        
+        
+    */
+h2{ font-size: 1.8em;}

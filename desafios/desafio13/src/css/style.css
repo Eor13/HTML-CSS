@@ -1,0 +1,18 @@
+body{
+    font-family: monospace;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: separate;
+}
+td{
+    border: 1px solid black;
+    width: 150px;
+    height: 100px;
+}
+tr > td:nth-child(even){
+    background-color: lightsalmon;
+}

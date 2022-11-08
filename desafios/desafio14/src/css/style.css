@@ -1,0 +1,23 @@
+body{
+font-family: monospace;
+font-size: 2em;
+text-align: center;
+}
+table{
+    border-collapse: collapse;
+    text-transform:capitalize;
+    margin: auto;
+}
+th, td{
+    border: 1px solid rgba(0, 0, 0, 0.577);
+    padding: 10px;
+}
+.forte{
+    background-color: darkgray;
+    color: aliceblue;
+}
+caption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: bold;
+    padding: 5px;
+}

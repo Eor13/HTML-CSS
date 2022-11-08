@@ -1,0 +1,32 @@
+h1{ /*=====box-level===*/
+    background-color: lightgray;
+    height:300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color: orangered;
+    
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+a{ /* inline-level*/
+    /* podemos transformar um inline-level em box-level com a tag "Display:block;"*/
+    border-color: chartreuse;
+    border-style:dotted;
+    border-width: 1px;
+
+    padding: 5px;
+    margin: 20px 1px;
+}

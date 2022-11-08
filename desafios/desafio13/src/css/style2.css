@@ -1,0 +1,21 @@
+body{
+    font-family: monospace;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(245, 245, 182);
+    text-transform: uppercase;
+}
+td{
+    border: 1px solid black;
+    padding: 20px;
+    width: 150px;
+    height: 80px;
+}
+td.color{
+    background-color: rgb(200, 200, 149);
+}

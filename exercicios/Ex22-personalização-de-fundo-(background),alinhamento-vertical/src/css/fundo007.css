@@ -1,0 +1,23 @@
+#container{
+    position: relative;
+    height: 95vh;
+    padding: 10px;
+    background-color: darkviolet;
+
+    background-image: url(../image/target001.png);
+    background-size: 100% 100%;
+}
+#conteudo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    background-image: url(../image/target001.png);
+    background-size: 100% 100%;
+
+    transform: translate(-50%, -50%);
+}
