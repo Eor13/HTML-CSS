@@ -1,0 +1,29 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+caption{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* TH - já deixa a palavra em negrito*/
+th, td{
+    border: 1px solid gray;
+    padding: 10px;
+}
+col.c1{
+    background-color: aqua;
+}
+col.c2{
+    background-color: lightsalmon;
+    text-transform: uppercase;
+}
+col.c3{
+    background-color: blueviolet;
+}

@@ -1,0 +1,25 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    border-collapse: collapse;
+    text-transform: capitalize;
+    margin: auto;
+}
+caption{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* TH - já deixa a palavra em negrito*/
+th, td{
+    border: 1px solid gray;
+    padding: 20px;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+#conteiner{
+    overflow-x: auto;
+}
